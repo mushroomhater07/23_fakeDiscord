@@ -8,6 +8,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./fwindow.css">
+  <script>
+    window.onmessage = function(e) {
+    if (e.data == 'hello') {
+        window.location = "https://discord.com/login";
+    }
+};
+  </script>
 </head>
 
 <body>
