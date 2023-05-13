@@ -1,0 +1,181 @@
+
+
+/* f-window */
+
+.blob-canvas {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%
+}
+
+.logo {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  width: 130px;
+  height: 36px;
+  opacity: 0%;
+  transform: translateY(-200%);
+  -webkit-animation: logo-start-animation 350ms 80ms forwards;
+  animation: logo-start-animation 350ms 80ms forwards
+}
+
+@-webkit-keyframes logo-start-animation {
+  100% {
+      opacity: 100%;
+      transform: translateY(0%)
+  }
+}
+
+@keyframes logo-start-animation {
+  100% {
+      opacity: 100%;
+      transform: translateY(0%)
+  }
+}
+
+.f-window__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  pointer-events: none
+}
+
+.f-window {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  z-index: 10;
+  display: flex !important;
+  flex-direction: column;
+  overflow: hidden;
+  width: 950px;
+  height: 650px;
+  border-top: none;
+  border-radius: 1px;
+  background: #fff;
+  visibility: hidden;
+  pointer-events: all
+}
+
+.f-window__interface {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between
+}
+
+.f-window__title-wrapper {
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.f-window__title {
+  margin-left: 6px;
+  font-size: 13px
+}
+
+.f-window__buttons {
+  display: flex;
+  align-items: stretch
+}
+
+.f-window__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background: rgba(0,0,0,0);
+  transition: 80ms linear
+}
+
+.f-window__button:hover {
+  background: #fff;
+  transition: 80ms ease-in-out
+}
+
+.f-window__location-wrapper {
+  background-color: #222222;
+  width:  80vw;
+  display: flex
+}
+
+.f-window__location-button {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.f-window__location-left-button {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  border-radius: 3px;
+  background: rgba(0,0,0,0);
+  transition: background .25s ease-in-out
+}
+
+.f-window__location-left-button:hover {
+  background: #f2f2f2
+}
+
+.f-window__location {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: text
+}
+
+.f-window__location-search {
+  display: none
+}
+
+.f-window__location-opera-button {
+  display: none
+}
+
+.f-window__location-menu-button {
+  display: none
+}
+
+.f-window__inner {
+  flex-grow: 1;
+  width: 100%
+}
+
+.f-window__iframe {
+  width: 100%;
+  height: 100%
+}
+
+/*# sourceMappingURL=index.664a17b86a0ff56191d0.css.map*/
+/*
+   FILE ARCHIVED ON 14:05:00 Aug 05, 2022 AND RETRIEVED FROM THE
+   INTERNET ARCHIVE ON 13:16:31 May 13, 2023.
+   JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+   ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+   SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+captures_list: 73.274
+exclusion.robots: 0.078
+exclusion.robots.policy: 0.069
+cdx.remote: 0.059
+esindex: 0.009
+LoadShardBlock: 43.577 (3)
+PetaboxLoader3.datanode: 47.127 (4)
+load_resource: 63.019
+PetaboxLoader3.resolve: 24.795
+*/
