@@ -4701,13 +4701,14 @@ html.low-saturation .lowSaturationUnderline-3svVxy {
 }
 
 .input-cIJ7To {
+
 	font-size: 16px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 100%;
 	border-radius: 3px;
 	color: var(--text-normal);
-	background-color: var(--deprecated-text-input-bg);
+	background-color: #1e1f22;
 	border: 1px solid var(--deprecated-text-input-border);
 	-webkit-transition: border-color .2s ease-in-out;
 	transition: border-color .2s ease-in-out
@@ -12737,7 +12738,7 @@ img[alt] {
 
 .inputField-4g7rSQ {
 	border: none;
-	background-color: transparent
+	background-color: #1e1f22
 }
 
 .applicationIcon-28iDrP {
@@ -13583,9 +13584,8 @@ img[alt] {
 
 .theme-light .hiddenMessage-1iiFV5,
 .theme-light .inputDefault-A2ud2y {
-	color: #4f545c
+	color: #1e1f22
 }
-
 .theme-light .hiddenMessage-1iiFV5::-webkit-input-placeholder,
 .theme-light .inputDefault-A2ud2y::-webkit-input-placeholder {
 	color: rgba(79, 84, 92, .3)
